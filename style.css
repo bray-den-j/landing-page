@@ -37,6 +37,8 @@ ul {
     color: aliceblue;
 }
 
+
+
 button {
     background-color: #3882f6;
     border: none;
@@ -79,7 +81,7 @@ img {
     color: #f9faf8;
 }
 
-#hero_secondary {
+.hero_secondary {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -137,5 +139,31 @@ img {
 
 .container_four {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
 }
 
+.box {
+    display: flex;
+    background-color: #3882f6;
+    padding: 75px; 
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 100px;
+    max-width: 1000px;
+}
+
+.action_text {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+    margin-bottom: 16px;
+}
+
+button.action_button {
+    flex-shrink: 0;
+    border: 2px solid #f9faf8;
+}
