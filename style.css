@@ -7,11 +7,11 @@
 body {
     font-family: Roboto;
     margin: 0;
+    background-color: #1f2937;
 }
 
 .header {
     display: flex;
-    background-color: #1f2937;
     justify-content: space-between;
     align-items: center;
     padding: 10px 200px;
@@ -32,6 +32,53 @@ ul {
     color: aliceblue;
 }
 
-.container_one{
-    background-color: #1f2937;
+button {
+    background-color: #3882f6;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+    margin-top: 12px;
+    color: #f9faf8;
+    border-radius: 5px;
+    font-weight: 600;
 }
+
+.container_one {
+    padding: 0px 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_up {
+    max-width: 500px;
+}
+
+#projector {
+    width: 400px;
+    padding: 20px;
+}
+
+#hero {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+#hero_secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.container_two{
+    background-color: white;
+}
+
+.container_three {
+    background-color: #e5e7eb;
+}
+
+.container_four {
+    background-color: white;
+}
+
