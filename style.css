@@ -44,7 +44,7 @@ button {
 }
 
 .container_one {
-    padding: 0px 200px;
+    padding: 20px 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,11 +52,18 @@ button {
 
 .sign_up {
     max-width: 500px;
+    margin-right: 24px;
+}
+
+img {
+    width: 250px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px #1f2937;
 }
 
 #projector {
     width: 400px;
-    padding: 20px;
+    border-radius: 0;
 }
 
 #hero {
@@ -72,7 +79,26 @@ button {
 
 .container_two{
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
+
+#info_header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.top_movies {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 24px;
+    margin: 24px 0px;
+}
+
+
 
 .container_three {
     background-color: #e5e7eb;
