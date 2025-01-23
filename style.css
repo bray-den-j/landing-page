@@ -167,3 +167,15 @@ button.action_button {
     flex-shrink: 0;
     border: 2px solid #f9faf8;
 }
+
+.footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .text {
+    color: #e5e7eb;
+}
+
